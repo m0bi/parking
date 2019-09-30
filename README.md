@@ -1,1 +1,2 @@
 # parking
+Due to the class imbalance the recall of this estimator is low. I would normally attempt to overcome this problem by training a few different types of trees, CatBoost or XGBoost, add a feed forward neural network to the mix, and then run a logistic regression over the results. However, as requested I kept the model simple and hand tuned a single estimator. If I had more time with this I would like to add some bayesian optimization to the hyperparameter space, but I have already spent a week on this problem, so it is time to provide some results.
